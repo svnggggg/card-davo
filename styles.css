@@ -1,0 +1,40 @@
+html{
+	background-image: linear-gradient(100deg, #A09BE7 40%, #7E00F5 40%); /* Boludear con el ultimo num del background */
+    font-family: 'Open Sans';
+    color: white;
+}
+
+.davo{
+    width: 15%;
+    height: auto;
+    border-radius: 70%;
+    margin-left: 2em;
+    margin-top: 5em;
+    transition: 1s all;
+}
+
+.davo:hover{
+   transform: scale(0.2, 0.2);
+}
+
+.logos{
+    display: inline;
+    margin-left: 2em;
+    /* border: 2px solid yellow; */
+}
+
+.logos a img{
+    width: 3%;
+    height: auto;
+    margin-left: 2em;
+    opacity: 40%;
+    transition: 1s all;
+}
+
+.logos a img:hover{
+   transform: scale(1, 0.2);
+}
+
+h1, h2, p{
+    margin-left: 40px;
+}
